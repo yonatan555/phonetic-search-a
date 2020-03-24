@@ -7,7 +7,7 @@ HEADERS=PhoneticFinder.hpp
 OBJECTS=PhoneticFinder.o
 
 run: demo
-	./$^
+	    ./$^
 
 demo: Demo.o $(OBJECTS)
 	$(CXX) $(CXXFLAGS) $^ -o demo
